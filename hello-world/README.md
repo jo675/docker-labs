@@ -2,17 +2,12 @@
 
 Build and tag the image
 ```
-docker build -t hello_world:my_image .
-```
-
-Find the IMAGE ID
-```
-docker image ls <IMAGE ID>
+docker build -t hello_world .
 ```
 
 Run the container
 ```
-docker run <IMAGE ID>
+docker run hello_world
 ```
 
 Output:
