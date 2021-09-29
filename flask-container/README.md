@@ -1,4 +1,4 @@
-# Containerized flask app that will print hello world and from what container.
+# Containerized flask hello world app and message from running container.
 
 Build and tag the image
 ```
@@ -10,7 +10,7 @@ docker run -p 81:81 hello_world_flask
 ```
 Check the page on port 81
 ```
-curl http://<YOUR IP>:81
+curl http://0.0.0.0:81
 ```
 
 Output:
