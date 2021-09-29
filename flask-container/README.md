@@ -6,7 +6,7 @@ docker build -t hello_world_flask .
 ```
 Run the container
 ```
-docker run hello_world_flask
+docker run -p 81:81 hello_world_flask
 ```
 Check the page on port 81
 ```
