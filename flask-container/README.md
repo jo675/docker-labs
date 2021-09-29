@@ -1,4 +1,4 @@
-# Containerized flask hello world app and message from running container.
+# Containerized hello world flask app and message from running container.
 
 Build and tag the image
 ```
