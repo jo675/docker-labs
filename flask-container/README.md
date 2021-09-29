@@ -2,7 +2,7 @@
 
 Build and tag the image
 ```
-docker build -t hello_world_flask
+docker build -t hello_world_flask .
 ```
 Run the container
 ```
